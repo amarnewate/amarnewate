@@ -1,4 +1,8 @@
-<?php ?>
+<?php
+$name='Amar'
+
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +13,7 @@
 </head>
 <body>
 
-    <h1>Welcome to My Website</h1>
+    <h1><?php $name;?></h1>
 
     <p>This is a paragraph of text on my webpage. You can replace it with whatever content you want!</p>
 
